@@ -38,3 +38,25 @@ modalOverlay.addEventListener("click", (event) => {
   }
 });
 // });
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyCbxuHpiCJZrnXgZB1ax9xPgRSiN1OyhM4",
+  authDomain: "softies-ea9e3.firebaseapp.com",
+  projectId: "softies-ea9e3",
+  storageBucket: "softies-ea9e3.appspot.com",
+  messagingSenderId: "99965585561",
+  appId: "1:99965585561:web:88926f8e24ae93e3a35008",
+  measurementId: "G-L706YHLT94",
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);

@@ -4,7 +4,7 @@ This file might be considered the first or is one of the first steps upon a user
 
 */
 
-import { JSONfromSVG } from "./stuff-that-lives-in-database/0.2-convert-svg-to-json.js";
+import { JSONfromSVG } from "../stuff-that-lives-in-database/0.2-convert-svg-to-json.js";
 
 function jsonToSvg(json) {
   const attributes = json.attributes || {};
