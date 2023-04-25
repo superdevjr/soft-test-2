@@ -3,6 +3,8 @@ import { idObject } from "./stuff-that-lives-in-database/0.3-create-id-object-fr
 import { SVGtoAppend } from "./convert-json-back-to-svg.js";
 import { openModal } from "./open-modal.js";
 
+console.log(idObject);
+
 // Variable declarations for DOM targeting
 let svgContainer = document.getElementById("svgContainer");
 svgContainer.innerHTML = SVGtoAppend;
