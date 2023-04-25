@@ -1,9 +1,12 @@
 const express = require("express");
 const app = express();
 const port = 3000;
+const cors = require("cors");
+
+app.use(cors());
 
 app.get("/api/json-data", (req, res) => {
-  let idObject = {
+  const jsonData = {
     passion: {
       heading: "Dummy heading for passion",
       body: "Dummy body content for passion",
@@ -181,6 +184,8 @@ app.get("/api/json-data", (req, res) => {
       ],
     },
   };
+
+  res.json(jsonData);
 });
 
 app.listen(port, () => {
