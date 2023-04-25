@@ -10,10 +10,10 @@ export function openModal(content) {
   populateModalWithReadUnreadButtons(content);
 }
 
-const modal = document.getElementById("modal");
-const modalHeading = document.getElementById("modal-heading");
-const modalBody = document.getElementById("modal-body");
-const modalLinks = document.getElementById("modal-links");
+// const modal = document.getElementById("modal");
+// const modalHeading = document.getElementById("modal-heading");
+// const modalBody = document.getElementById("modal-body");
+// const modalLinks = document.getElementById("modal-links");
 
 // // Function that populates modal with text based content (goes in open modal function)
 // function populateModalWithTextBasedContent(content) {
