@@ -1,6 +1,8 @@
 import { SVGtoAppend } from "./convert-json-back-to-svg.js";
 import { openModal } from "./open-modal.js";
 import { idObject } from "./stuff-that-lives-in-database/0.3-create-id-object-from-json.js";
+import { JSONfromSVG } from "./stuff-that-lives-in-database/0.2-convert-svg-to-json.js";
+console.log(JSONfromSVG);
 console.log(idObject);
 // Variable declarations for DOM targeting
 let svgContainer = document.getElementById("svgContainer");
